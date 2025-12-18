@@ -1,0 +1,186 @@
+/* GENERAL */
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(161, 229, 246);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  background: #1b1b3a;
+  padding: 20px 0;
+  color: #2b6eff;
+}
+
+.logo {
+  font-size: 28px;
+  margin: 0;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #2b6eff;
+}
+
+/* HERO SECTION */
+.hero-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  margin: 6px 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2b6eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* RIWAYAT PENDIDIKAN */
+.secondary-news h2 {
+  margin-top: 50px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.news-card {
+  background: rgb(173, 253, 166);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #ccc;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2b6eff;
+}
+
+/* SKILLS */
+.skills {
+  background: white;
+  padding: 40px 0;
+  margin-top: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.skill-item {
+  background: #1b1b3a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* ABOUT PAGE */
+.about-layout {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.about-photo {
+  width: 350px;
+  border-radius: 50px;
+}
+
+.bio-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bio-table th,
+.bio-table td {
+  padding: 12px;
+  border: 1px solid #180303;
+}
+
+/* CONTACT FORM */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px 24px;
+  background: #2ee815;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2b6eff;
+}
+
+/* FOOTER */
+.footer {
+  background: #1b1b3a;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.back {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #0004fd;
+}
